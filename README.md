@@ -11,34 +11,38 @@ It helps visualize how shapes can be represented on a 2D grid and reinforces con
 - Implement functions to draw basic shapes (rectangle, line, triangle, circle).
 - Practice handling user input and menu-driven program design.
 - Gain experience with compiling and running C programs using GCC.
+- Manage objects with **add, delete, and modify** operations.
 
 ---
 
-## ⚙️ Compilation
-To compile the program using GCC:
+## ⚙️ Compilation & Execution
+To compile and run the program using GCC:
 ```bash
 gcc graphics_editor.c -o graphics_editor.exe
 .\graphics_editor.exe
 --- 2D GRAPHICS EDITOR ---
-1. Draw Rectangle
-2. Draw Line
-3. Draw Triangle
-4. Draw Circle
-5. Clear Canvas
-6. Display Canvas
-7. Exit
+1. Add Rectangle
+2. Add Line
+3. Add Triangle
+4. Add Circle
+5. Display Picture
+6. Delete Object
+7. Modify Object
+0. Exit
 Shape Inputs
-Rectangle → Enter x y width height
+Rectangle → Enter top-left x y and bottom-right x y
 
 Line → Enter x1 y1 x2 y2
 
-Triangle → Enter x y size
+Triangle → Enter x1 y1 x2 y2 x3 y3
 
-Circle → Enter x y radius
+Circle → Enter center x y and radius
 
 Other Options
-Clear Canvas → Erases all shapes
+Display Picture → Shows the ASCII drawing with all objects.
 
-Display Canvas → Shows the ASCII drawing
+Delete Object → Removes a shape by its index.
 
-Exit → Quits the program
+Modify Object → Updates a shape’s type or parameters.
+
+Exit → Quits the program.
