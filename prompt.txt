@@ -1,1 +1,45 @@
+This file contains all the prompts I gave to the AI tool while building my mini-project program.  
+It shows the step-by-step instructions I asked for, in the same order I worked on them.
 
+---
+
+PROMPT 1:
+I want a C program that can draw simple shapes (line, rectangle, circle, triangle) on a 2D ASCII canvas using characters.
+
+PROMPT 2:
+Please make the program menu-driven so the user can choose which shape to draw.
+
+PROMPT 3:
+Add functions to reset the canvas and display it after drawing.
+
+PROMPT 4:
+Implement Bresenham’s line algorithm for drawing lines.
+
+PROMPT 5:
+Add a function to draw rectangles by connecting four sides.
+
+PROMPT 6:
+Add a function to draw circles using the midpoint circle algorithm.
+
+PROMPT 7:
+Add a function to draw triangles by connecting three points with lines.
+
+PROMPT 8:
+Make the program store shapes in a list so they can be redrawn when refreshing the canvas.
+
+PROMPT 9:
+Add options in the menu to delete a shape from the list.
+
+PROMPT 10:
+Add options in the menu to modify an existing shape.
+
+PROMPT 11:
+Ensure the program supports add, delete, modify, and display operations for all shapes.
+
+PROMPT 12:
+Give me the final corrected version of the program with all TODOs filled in and ready to run.
+
+---
+
+End of prompts.  
+This record is prepared for submission as required by the teacher.
